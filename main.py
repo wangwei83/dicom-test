@@ -5,8 +5,11 @@ from pydicom import dcmread
 from pydicom.data import get_testdata_file
 
 # The path to a pydicom test dataset
-path = get_testdata_file("CT_small.dcm")
-ds = dcmread(path)
+# path = get_testdata_file("CT_small.dcm")
+#ds = dcmread(path)
+path = get_testdata_file("image1.dcm")
+ds = dcmread("image1.dcm")
+
 # `arr` is a numpy.ndarray
 arr = ds.pixel_array
 
