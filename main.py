@@ -1,5 +1,6 @@
 
 #https://github.com/pydicom/pydicom
+# vtk, opencv, pcl
 import matplotlib.pyplot as plt
 from pydicom import dcmread
 from pydicom.data import get_testdata_file
